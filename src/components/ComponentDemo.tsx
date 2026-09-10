@@ -15,12 +15,12 @@ function ComponentDemo() {
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Button</h2>
 
-        {/* Komponen Button */}
+        {/*button*/}
         <div className="flex gap-4">
-          {/* State: Default */}
+          {/*default*/}
           <Button>Simpan</Button>
 
-          {/* State: Loading */}
+          {/*loading*/}
           <Button disabled>
             <Loader2 className="animate-spin" />
             Menyimpan...
@@ -28,19 +28,19 @@ function ComponentDemo() {
         </div>
       </section>
 
-      {/* Komponen Input */}
+      {/*input*/}
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Input</h2>
 
         <div className="space-y-4 max-w-md">
-          {/* State: Default */}
+          {/*default*/}
           <div className="space-y-2">
             <label htmlFor="email">Email</label>
 
             <Input id="email" placeholder="Masukkan email" />
           </div>
 
-          {/* State: Error */}
+          {/*error*/}
           <div className="space-y-2">
             <label htmlFor="email">Email</label>
 
@@ -55,12 +55,12 @@ function ComponentDemo() {
         </div>
       </section>
 
-      {/* Komponen Select */}
+      {/*select*/}
       <section className="space-y-4">
         <h2 className="text-xl font-semibold">Select</h2>
 
         <div className="space-y-4 max-w-md">
-          {/* State: Default */}
+          {/*default*/}
           <div className="space-y-2">
             <label>Kategori</label>
 
@@ -79,7 +79,7 @@ function ComponentDemo() {
             </Select>
           </div>
 
-          {/* State: Error */}
+          {/*error*/}
           <div className="space-y-2">
             <label>Kategori</label>
 
